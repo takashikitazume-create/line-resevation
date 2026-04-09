@@ -5,7 +5,7 @@
 // ============================================================
 const CONFIG = {
   GAS_URL: 'https://script.google.com/macros/s/AKfycbwYsupJOVOqsYWfgfzBSueUgoKMvPq4_PSpN_VGKhEVUaoblrhRp-_IGfLuVJ8MYR2g/exec',
-  LIFF_ID: '2009742884-e9ueuqGE',
+  LIFF_ID: '2009743570-Czkb8m3F',
 };
 
 // ============================================================
