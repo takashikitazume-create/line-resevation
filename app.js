@@ -4,7 +4,7 @@
 // ⚙️ 設定（デプロイ後にここを編集してください）
 // ============================================================
 const CONFIG = {
-  GAS_URL: 'https://script.google.com/macros/s/AKfycbwYsupJOVOqsYWfgfzBSueUgoKMvPq4_PSpN_VGKhEVUaoblrhRp-_IGfLuVJ8MYR2g/exec',
+  GAS_URL: 'https://script.google.com/macros/s/AKfycbyJ4iK15G6YH6INFf8-VRwTljTVOJdkV9UIybdhoS7WY4TLUJc8scZgI67K7wzWncvcNA/exec',
   LIFF_ID: '2009743570-Czkb8m3F',
 };
 
