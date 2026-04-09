@@ -160,6 +160,15 @@ a { color: inherit; text-decoration: none; }
   margin-bottom: 12px;
 }
 
+/* ---------- SVGアイコン ---------- */
+.service-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--green-dark);
+}
+.service-btn.selected .service-icon { color: var(--green); }
+
 /* ---------- STEP 1：サービス種別 ---------- */
 .service-grid {
   display: grid;
@@ -187,6 +196,42 @@ a { color: inherit; text-decoration: none; }
   border-color: var(--green);
   background: var(--green-pale);
 }
+
+/* ---------- STEP 3：時間選択 ---------- */
+.duration-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.duration-btn {
+  background: var(--white);
+  border: 2px solid var(--gray-200);
+  border-radius: var(--radius);
+  padding: 20px 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+  box-shadow: var(--shadow-sm);
+}
+.duration-btn:active,
+.duration-btn.selected {
+  border-color: var(--green);
+  background: var(--green-pale);
+}
+.duration-min {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--gray-800);
+}
+.duration-label {
+  font-size: 13px;
+  color: var(--gray-600);
+}
+.duration-btn.selected .duration-min  { color: var(--green-dark); }
+.duration-btn.selected .duration-label { color: var(--green-dark); }
 
 /* ---------- STEP 2：メニュー ---------- */
 .menu-list { display: flex; flex-direction: column; gap: 10px; }
